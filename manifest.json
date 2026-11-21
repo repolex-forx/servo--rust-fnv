@@ -1,0 +1,27 @@
+{
+  "manifest_version": "1.0",
+  "org": "servo",
+  "repo": "rust-fnv",
+  "versions": [
+    {
+      "commit": "4b4784ebfd3332dc61f0640764d6f1140e03a9ab",
+      "parsed_at": "2026-11-21T23:43:07.924700+00:00",
+      "tag": "v1.0.7",
+      "filetree": "filetree/4b4784ebfd3332dc61f0640764d6f1140e03a9ab.nq.gz",
+      "blobs": [
+        "blob/1284119a679f7b7a3c77aee2eabbfcc90933c85d.nq.gz",
+        "blob/25dd6d5b0d9219ef9a7315c22785586cd1c6d451.nq.gz",
+        "blob/b58b1064e4ec01a4ac16cc94e72bb1b5240b32ee.nq.gz",
+        "blob/16fe87b06e802f094b3fbb0894b137bca2b16ef1.nq.gz",
+        "blob/bc976a272cedb87725d582193a858be931e722d4.nq.gz",
+        "blob/a9d37c560c6ab8d4afbf47eda643e8c42e857716.nq.gz",
+        "blob/f2df52f631a7bc5c02fea0dba2da8d219b4ebd07.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
