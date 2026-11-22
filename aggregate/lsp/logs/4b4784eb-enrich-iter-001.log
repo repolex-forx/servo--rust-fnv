@@ -1,0 +1,16 @@
+[2026-11-22T00:11:20Z] === ENRICH ITERATION 1 START | repo=servo/rust-fnv sha=4b4784eb ===
+[2026-11-22T00:11:20Z] [iter=1] PHASE START: enrich repo=servo/rust-fnv sha=4b4784eb runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4b4784eb-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4b4784ebfd3332dc61f0640764d6f1140e03a9ab.nq.gz
+[2026-11-22T00:11:20Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T00:11:20Z] [iter=1] AST store loaded triples=17478 load_secs=0 mem_mb=105 MB
+[2026-11-22T00:11:20Z] [iter=1] Step 2: Finding LSP targets mem_mb=105 MB
+[2026-11-22T00:11:20Z] [iter=1] LSP targets found call_sites=219 imports=4 extends=0 implements=0 secs=0
+[2026-11-22T00:11:20Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=105 MB
+[2026-11-22T00:11:21Z] [iter=1] Position index built positions=1089 nodes_with_types=1325 secs=0 mem_mb=105 MB
+[2026-11-22T00:11:21Z] [iter=1] Step 3: Starting LSP resolution mem_mb=105 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T00:11:21Z] [iter=1] Resolving target type target_type=call_site count=219
+[2026-11-22T00:11:34Z] [iter=1] Target type resolved target_type=call_site resolved=215 errors=0 secs=13 mem_mb=105 MB
+[2026-11-22T00:11:34Z] [iter=1] Resolving target type target_type=import_statement count=4
+[2026-11-22T00:11:38Z] [iter=1] Target type resolved target_type=import_statement resolved=4 errors=0 secs=4 mem_mb=105 MB
+[2026-11-22T00:11:42Z] [iter=1] Step 5: Writing final enrichment file triples=1876
+[2026-11-22T00:11:42Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/4b4784ebfd3332dc61f0640764d6f1140e03a9ab.nq.gz size_kb=19
+[2026-11-22T00:11:42Z] [iter=1] PHASE END: enrich elapsed_s=21 elapsed_min=0.4 total_triples=1876
