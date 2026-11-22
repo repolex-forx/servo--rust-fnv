@@ -1,0 +1,11 @@
+{
+  "org": "servo",
+  "repo": "rust-fnv",
+  "versions": [
+    {
+      "commit": "4b4784ebfd3332dc61f0640764d6f1140e03a9ab",
+      "tag": "v1.0.7",
+      "parsed_at": "2026-11-22T00:13:56.956115+00:00"
+    }
+  ]
+}
